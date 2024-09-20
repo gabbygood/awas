@@ -291,6 +291,11 @@ html {
   padding: 10rem 0;
 }
 
+.main-two {
+  background-color: #fff;
+  padding: 10rem 0;
+}
+
 .main__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
