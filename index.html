@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWAS</title>
+  <link rel="shortcut icon" href="./images/awas-logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <img src="./images/awas-logo.jpg" alt="lourdes logo" class="image-logo-lc" style="border-radius: 50%;">
+      <h1 class="lourdes-college">AWAS Inc.</h1>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links" id="about-page">How it works</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#services" class="navbar__links" id="services-page">Services</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#admission" class="navbar__links" id="admission-page" onclick="scrollPage()">SamplePic</a>
+        </li>
+        <li class="navbar__btn">
+          <a href="#sign-up" class="button" id="signup">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+    <div class="hero__container">
+      <h1 class="hero__heading">Automatic Water Agri System</h1>
+      <p class="hero__description">In the world of agriculture, the efficient use of water resources has always been a
+        priority. With climate change and rising water scarcity, farmers are increasingly adopting automatic water
+        irrigation systems to optimize water usage, boost crop yield, and reduce labor. These systems, equipped with
+        sensors and controllers, enable the precise distribution of water according to plant needs, ensuring that no
+        water is wasted.
+        By automating irrigation, farmers can focus on other critical tasks, monitor water usage remotely, and ensure
+        their crops get just the right amount of moisture. This modern approach is transforming agricultural practices,
+        making them more sustainable and productive.
+      </p>
+      <button class="main__btn"><a href="#">I AWAS ❤️</a></button>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="main" id="about">
+    <div class="main__container">
+      <div class="main__img--container">
+        <img src="./images/pic-1.png" alt="image-1" class="main__img--card">
+      </div>
+      <div class="main__content">
+        <h1>Arduino Board</h1>
+        <p style="font-size: 1rem;">Arduino UNO or any compatible model. This acts as the central controller for the
+          system.</p>
+        <h1>Soil Moisture Sensors</h1>
+        <p style="font-size: 1rem;">These sensors measure the moisture content of the soil and send readings to the
+          Arduino.</p>
+        <h1>Water Pump</h1>
+        <p style="font-size: 1rem;">A 5V or 12V submersible water pump is often used to draw water and distribute it to
+          the plants.</p>
+        <button class="core-values main__btn"><a href="#">I AWAS ❤️</a></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div class="services" id="services">
+    <h1>Our Services</h1>
+    <div class="services__wrapper">
+      <div class="services__card">
+        <h2>Automated Irrigation System Design</h2>
+        <p style="font-size: 1rem;">Our expert team specializes in custom-designed automated irrigation systems tailored
+          to your specific agricultural or gardening needs. We assess your land, water sources, and crop types to create
+          a personalized system that maximizes water efficiency and ensures optimal crop health. Whether it’s for a home
+          garden or large commercial farms, our design approach is aimed at providing sustainable and intelligent water
+          management.</p>
+        <div class="services__btn"><button>Get Started</button></div>
+      </div>
+      <div class="services__card">
+        <h2>Installation and Setup</h2>
+        <p style="font-size: 1rem;">We offer professional installation and setup services for all types of automated
+          irrigation systems. From placing moisture sensors and water pumps to configuring control units like Arduino or
+          commercial systems, we ensure that every component is properly installed. Our team will guide you through the
+          setup process, ensuring your system is fully functional and easy to manage from day one.</p>
+        <div class="services__btn"><button>Get Started</button></div>
+      </div>
+      <div class="services__card">
+        <h2>Maintenance and Support</h2>
+        <p style="font-size: 1rem;">We offer comprehensive maintenance and support services to keep your irrigation
+          system running smoothly year-round. This includes routine checkups, cleaning, and repairs, as well as
+          technical support for any issues that arise. Our team is always available to troubleshoot and maintain your
+          system, extending its lifespan and ensuring optimal performance.</p>
+        <div class="services__btn"><button>Get Started</button></div>
+      </div>
+      <div class="services__card">
+        <h2>Smart Integration and Upgrades</h2>
+        <p style="font-size: 1rem;">Upgrade your irrigation system with smart integration features, such as remote
+          access, weather-based scheduling, and IoT functionality. We provide advanced upgrades for existing systems,
+          allowing you to control and monitor your irrigation setup from anywhere through mobile apps. Our solutions
+          keep your system in line with the latest technology trends, enhancing efficiency and convenience.</p>
+        <div class="services__btn"><button>Get Started</button></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="admission" id="admission">
+    <img src="./images/pic-2.jpg" alt="" class="image-admission">
+  </div>
+
+  <!-- Features Section -->
+  <div class="main" id="sign-up">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>Join AWAS Community</h1>
+        <h2>Sign Up Today</h2>
+        <p>Automatic Water Agri System</p>
+        <button class="main__btn"><a href="#">Sign Up</a></button>
+      </div>
+      <div class="main__img--container">
+        <div class="main__img--card" id="card-2">
+          <i class="fas fa-users"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About Us</h2>
+          <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+          <a href="/">Careers</a> <a href="/">Terms of Service</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Contact Us</h2>
+          <a href="/">Contact</a> <a href="/">Support</a>
+          <a href="/">Destinations</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Videos</h2>
+          <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+          <a href="/">Agency</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Social Media</h2>
+          <a href="/">Instagram</a> <a href="/">Facebook</a>
+          <a href="/">Youtube</a> <a href="/">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo">AWAS, Inc</a>
+        </div>
+        <p class="website__rights">© AWAS 2024. All rights reserved</p>
+        <div class="social__icons">
+          <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
