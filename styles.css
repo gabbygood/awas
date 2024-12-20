@@ -252,7 +252,7 @@ html {
 }
 
 .hero__description {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   background: #da22ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
